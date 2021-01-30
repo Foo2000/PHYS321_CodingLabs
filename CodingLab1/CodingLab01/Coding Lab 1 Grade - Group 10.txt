@@ -1,0 +1,27 @@
+Grading for Coding Lab 1 - Group 10
+
+1/1 - existence of git commits before the final commit
+
+1/1 - explanation of the difference between RA hour and clock hour
+
+1/1 - explanation of diffraction spikes
+
+2/2 - movement of SDSS across the sky (positive increments in RA, good programming practises)
+
+1/1 - determination of RA and DEC of LMC, and displaying its non-existent image
+
+1/1 - explanation of the impacts of the local horizon on the field of regard
+
+1/1 - displaying SDSS image of HDF
+
+1/1 - explanation of astronomical seeing
+
+2/2 - plotting alt. and az. of Abell 2255 and alt. of sun vs time (correct axes, well labelled plot)
+
+1/1 - updating plot for 6 months later, and explanation
+
+1/1 - plotting of NCP/SCP position
+
+1/1 - pointing out that Polaris is very close to NCP currently
+
+Total - 14/14
