@@ -1,19 +1,19 @@
 Code description:
-The increase_distance function takes a 2^n * 2^n (planar) array of pixels (brightnesses) representing a galaxy and reduces the number of pixels over the same original plane by 4. This is logically equivalent to increasing the distance between the plane and the observation point by 2 as the area follows an inverse square law. By the same token, the brightness (flux) follows the same inverse square relationship (f = L/(4*pi*d^2) so when we create each new pixel from four pixels in the original array we add the four previous brightness values together and divide this value by four because distance is doubled and f_new = f_previous/(2^2) from the inverse square relationship.
-We return these new flux values and the standard deviation over these flux values. 
 
-From theory learnt in class we know that the standard deviation calculated is proportional to the flux (proportional to 1/(d^2)) times the square root of the average number of stars (proportional to (d^2)^(1/2)) i.e. 1/d. This is actually what we are trying to prove in the plot. 
+The increase_distance function takes a 2^n * 2^n (planar) array of pixels (brightnesses) representing a galaxy and reduces the number of pixels over the same original plane by 4 times, i.e. increases the pixel area by 4 times. This is logically equivalent to increasing the distance between the plane and the observation point by 2 times as the area follows an square law. Moreover, the brightness (flux) follows the inverse square relationship (f = L/(4*pi*d^2) so when we create each new pixel from four pixels in the original array we add the four previous brightness values together and divide this value by four because distance is doubled and f_new = f_previous/(2^2) from the inverse square relationship. We return these new flux values for the pixels and the standard deviations over these flux values. 
+
+From theory learnt in class we know that the standard deviation calculated is proportional to the flux (proportional to 1/(d^2)) times the square root of the average number of stars (proportional to (d^2)^(1/2)), i.e. proportional to 1/d. This is actually what we are trying to prove in the following code. 
 
 The get_stds function takes a 2^n * 2^n planar galaxy and calls increase_distance on it as long as it is possible. It records the standard deviation of the flux values and the 1/d values at each iteration in two separate arrays and returns these.
 
 The some_galaxy variable defined is an 64 * 64 (2^6 * 2^6) array of random (double) values between 0 and 1.
 
-The following code plots the outputs of the get_stds function called on some_galaxy and performs a linear regression on the data. The plot clearly returns demonstrates the linear relationship between standard deviation of flux and 1/d explained above.
+The last part of the code plots the outputs of the get_stds function called on some_galaxy and performs a linear regression on the data. The returned plot clearly demonstrates the linear relationship between standard deviation of flux and 1/d explained above.
 
 Discussion:
 
-In this code we are assuming that all light sources are located on the original 2^n * 2^n plane. The distance from each light source is therefore doubled, while in reality the distance will not double for each source if we increase the distance between the observation point and the average galaxy distance (defined as dist in get_stds function) due to galaxies not being exactly planar. 
+In this code we are assuming that all light sources are located on the original 2^n * 2^n plane. The distance from each light source is therefore doubled. While in reality, the distance will not double for each source if we increase the distance between the observation point and the average galaxy distance (defined as dist in get_stds function), due to galaxies not being exactly planar. 
 
-This assumption is only completely avoidable if we are given an original array of independant stars with each distance and brightness. From distance and brightness we may be able to extrapolate more accurate flux values. (Another way of looking at this issue is to assume that each source in the original array can only take binary values. In this case we can extrapolate the distance and modify the flux by this factor not exactly equal to 1/d^2. This assumption is no better than the one we used). 
+This assumption is only completely avoidable if we are given an original array of independant stars with their own distance and brightness. From the distances and brightnesses, we may be able to extrapolate more accurate flux values.
 
      
