@@ -1,9 +1,9 @@
 Lab contributions:
 
-Juan Duran contributed to coding most of the simulation and create a first functional model
+Juan Duran (ID: 260764333) contributed to coding most of the simulation and create a first functional model
 
-Zhengwen Fu contributed to modifying the simulation code and coding the linear regression
+Zhengwen Fu (ID: 260856256) contributed to modifying the simulation code and coding the linear regression
 
-Alexandre Stuart ID:260794335 contributed to commenting, optimizing and explaining the simulation code 
+Alexandre Stuart (ID: 260794335) contributed to commenting, optimizing and explaining the simulation code 
 
 
