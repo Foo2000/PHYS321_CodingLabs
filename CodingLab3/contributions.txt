@@ -4,6 +4,6 @@ Juan Duran contributed to coding most of the simulation and create a first funct
 
 Zhengwen Fu contributed to modifying the simulation code and coding the linear regression
 
-Alexandre Stuart contributed to commenting, optimizing and explaining the simulation code 
+Alexandre Stuart ID:260794335 contributed to commenting, optimizing and explaining the simulation code 
 
 
