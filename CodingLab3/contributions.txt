@@ -2,6 +2,6 @@ Lab contributions:
 
 Zhengwen Fu contributed to modifying simulation code and coding the linear regression
 
-Alexandre Stuart contributed to modifying simulation code, adding comments to the simulation code and writing the code_description txt file 
+Alexandre Stuart contributed to commenting, optimizing and explaining the simulation code 
 
 Juan Duran contributed to coding the simulation    
