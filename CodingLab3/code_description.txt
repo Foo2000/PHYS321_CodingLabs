@@ -14,6 +14,4 @@ Discussion:
 
 In this code we are assuming that all light sources are located on the original 2^n * 2^n plane. The distance from each light source is therefore doubled. While in reality, the distance will not double for each source if we increase the distance between the observation point and the average galaxy distance (defined as dist in get_stds function), due to galaxies not being exactly planar. 
 
-This assumption is only completely avoidable if we are given an original array of independant stars with their own distance and brightness. From the distances and brightnesses, we may be able to extrapolate more accurate flux values.
-
-     
+This assumption is only completely avoidable if we are given an original array of independent stars with their own distance and brightness. From the distances and brightness, we may be able to extrapolate more accurate flux values.
