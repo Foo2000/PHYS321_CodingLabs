@@ -1,0 +1,17 @@
+3/3 - understanding of Hubble flow and peculiar velocity
+2/2 - Using matplotlib; estimate Age using Plank.age() function
+2/2 - Using z_at_value() function; maths of subtracting his/her age
+5/6 - Basic knowledge of Hubble–Lemaître law; order-of-magnitude calculation - did not answer if we really need to use Astropy
+18/18 - Matplotlib use;final plot; estimate age using different cosmologies; basic code structure
+12/15 - Matplotlib use;final plot; use of Planck15.luminosity_distance() and Planck15.angular_diameter_distance(z) - plot is incorrect, the lines are not what they should be
+1/4 - D(A) starts decreasing (optional: non-linear distance scale) - described incorrect behaviour
+13/15 - matplotlib use;final plot; loadin data; converting to (m-M) values; basic code structure - plot is very messy, difficult to observe any trends
+4/4 - Existence of a pull request + merged into main branch
+
+60/69
+
+Things to note in final plot [10]
+Axis labels (units, values)   2 x [1+1] = 4
+-Legend (if required)  (2)
+Title (optional) --
+Overall plotted data behaviour (4)
