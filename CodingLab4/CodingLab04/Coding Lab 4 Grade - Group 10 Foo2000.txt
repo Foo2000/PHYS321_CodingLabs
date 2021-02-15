@@ -1,0 +1,11 @@
+8/8 (2+2+3+1 = 8): redshift cut, magnitude cut, extinction correction (2) and color cut (1), overall code
+8/8 (2+2+2+2 = 8): estimate luminoscity distance, correct for extinction, estimate absolute magnitude, final answer
+4/4: calling right function with appropriate input parameters
+2/2: knowledge of using the right formula
+14/14: estimate correctly comoving velocity (6), estimate luminoscity function (8)
+2/4: correct plot and code  - plot had incorrect quantity plotted on y axis
+6/6: estimate absolute magnitude correctly (2), plotting code (4)
+4/4: explanation (2), plot (2)
+7/10: implement V/V_max (4), plot corrected luminoscity function (6) - plot had incorrect quantity plotted on y axis
+
+55/60 Total points
