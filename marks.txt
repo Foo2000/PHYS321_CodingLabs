@@ -1,0 +1,26 @@
+ Q1a (3 pts): 3
+ Q1b (3 pts): 3
+ Q1c (1 pt): 1
+ Q1d (2 pts): 1
+ Q1 comments: d): Not explicitly dealt with merge conflict
+ Q2 (5 pts): 5
+ Q2 comments: .
+ Q3a (2 pts): 2
+ Q3b (4 pts): 4
+ Q3c (4 pts): 4
+ Q3d (4 pts): 4
+ Q3e (6 pts): 6
+ Q3 comments: .
+ Q4 (10 pts): 10
+ Q4 comments: .
+ Q5a (13 pts): 13
+ Q5b (3 pts): 3
+ Q5c (6 pts): 6
+ Q5d (3 pts): 2
+ Q5 comments: Good point about the positivity of m>0  but we were looking for a slightly sharper statement
+ Q6a (13 pts): 13
+ Q6b (6 pts): 6
+ Q6 comments: Fantastic
+ Total: 86
+ Percentage: 98
+ 
