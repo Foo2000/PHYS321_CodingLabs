@@ -1,0 +1,12 @@
+2/2 points: correct algebraic form for likelihood p(d|b). No need for combinatorical prefactor.
+4/4 points: prior p(b). 2 points for code that works, 2 points for the prior not having unphysical things (e.g., no negative values for b and no values greater than 1)
+11/11 points: 3 points each for prior, likelihood, and posterior. 2 points for normalizing posterior.
+6/6 points: 2 points for each plot, with a penalty for bad plotting (e.g., unlabelled axes etc.) at your discretion.
+3/5 points: 2 points for saying that the two methods give the same answer; 2 points for showing the graph; 1 point for saying that more data  narrower posterior. - different outcomes
+4/4 points: n% credible region code that works!
+2/2 points: a reasonable conclusion regarding which M&Ms factory.
+3/3 points: correct likelihood for p(x| lambda). (2 points if only p(x_i | lambda))
+12/12 points: 3 points each for likelihood, posterior, and prior. Another 3 points for a series of sensible graphs (including things like proper axis labels etc.)
+3/6 points: 2 points for after 10 measurements, 2 points for after 50, 2 points for after 99. - values are off by about an order of magnitude
+
+52/55 Total points
