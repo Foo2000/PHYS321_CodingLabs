@@ -1,0 +1,36 @@
+Question-1: MCMC implementation (Total marks – 15)
+MCMC implementation (10 points):
+6/6 : MH-algorithm (3 steps x2)
+Bayesian part:
+1/1 : Prior
+1/1 : Posterior
+2/2 : Likelihood
+Plotting (5 points - labels, legends, data representation, axes units)
+2/5 - no y scale or y label
+
+Question-2: Data fitting and plotting (Total marks – 10)
+5/5 : Data fitting
+5/5 : Plotting (labels, legends, data representation, axes units)
+
+Question 3: Outlier detection (Total marks – 20)
+MCMC implementation (10 points):
+5/5 : emcee (guess values-2;initial parameters-2;implementation-1)
+Bayesian part:
+1/1 : Prior
+1/1 : Posterior
+3/3 : Likelihood
+Plotting (10 points - labels, legends, data representation, axes units):
+1/5 : Corner plot - no corner plot but still had an attempt at showing a meaningful plot
+5/5 : Outlier detection figure 
+
+Question 4: SNIa fitting (Total marks – 15)
+MCMC implementation (11 points):
+5/5 : emcee (guess values-2;initial parameters-2;implementation-1)
+Bayesian part:
+2/2 : Prior
+2/2 : Posterior
+2/2 : Likelihood
+Plotting (4 points - labels, legends, data representation, axes units):
+4/4 : Corner plot
+
+53/60
