@@ -1,0 +1,43 @@
+For all plots, subtract 1 point if there are no axis labels.
+
+Q1:
+2/2 points for correctly inputted values (subtract 1 for excessively rounded numbers).
+0/2 points for correct exoplanet transit lightcurve (subtract 1 if there isn’t ~30 minutes on either side of the transit; doesn’t have to be super exact) - no lightcurve
+
+Q2:
+0/2 points for correctly coding up the Planck function. - missing
+1/1 point for integrating and multiply by pi*r^2 correctly.
+1/2 points for correct light curve - light curve looks correct but is not centered correctly
+0/1 point for saying that the eclipse depth is smaller than the transit depth - missing
+
+Q3:
+3/3 points for the minimization (1 point for updating the correct parameters, 1 point for computing the mean-square goodness of fit, 1 point for the actual optimization)
+3/3 points for the lightcurves (1 point for each curve, plus another point for being generally correct)
+
+Q4:
+New planet:
+2/2 points for correctly inputted values (subtract 1 for excessively rounded numbers).
+Detector sensitivity:
+2/2 points for polynomial function (ok to use scipy; order of polynomial terms doesn’t matter)
+Exoplanet signal:
+4/4 points for function (1 for correct inputs, 1 for correct parameter updates, 1 for compute new light curve, 1 for computing and multiplying detector calibration function)
+Prior, Likelihood, Posterior:
+4/4 points for the prior (1 point for updating planet parameters, 1 point for checking rp, 1 point for checking L, 1 point for returning 0 vs -np.inf)
+3/3 points for likelihood (2 points for correct log likelihood, 1 point for generating model correctly by feeding into previous function correctly)
+2/2 points for posterior (1 point for all necessary inputs, 1 point for combining prior and likelihood appropriately)
+Running MCMC
+2/2 points (1 for each MCMC run)
+Looking at results
+1/1 point (log probability plot)
+6/6 points (2 points for median values; 2 points for + errors; 2 points for – errors; because of the randomness of MCMC, values don’t need to match exactly, but should be close)
+2/2 points for plot comparison of uncalibrated data + uncalibrated model
+2/2 points for plot comparison of calibrated data + model
+Phasecurve peak
+1/1 point for correct offset.
+1/1 point for saying winds blow to the west.
+Temperatures
+2/2 points (1 for each correctly computed temperature)
+Dayside and Nightside temperatures
+5/8 points (1 point for plugging in values from chains into inversePlanck, 1 point for histogram, 1 point for 68% credibility region, 1 point for 95% credibility region; repeat for nightside temperature) - dayside temperature is -8000?, histograms are incorrect
+
+Total: 49/58 points
